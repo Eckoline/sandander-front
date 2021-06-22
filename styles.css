@@ -17,7 +17,7 @@ button{
     background-color: #025157;
 }
 body{
-    background-color: #b96f25;
+    background-color: #eeeeee;
 
 }
 .header {
@@ -80,4 +80,46 @@ margin:0 10px 0 10px;
   padding-bottom: 12px;
   border: 0;
   border-radius: 5px;
+}
+
+.promo{
+    display:flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    text-align:justify;
+ 
+}
+.publish{
+    font-family:sans-serif;
+    margin-left: 20px;
+    align-items: center;
+
+}
+.publish >form{
+    color:#025157;
+}
+
+.publish> p{
+    color:#343434;
+}
+
+h3{
+    color:#025157;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container img{
+    width: 200px;
+    margin-top: 10px;
+}
+.fixed-header{
+    position:fixed;
+    background-color: white;
+    top:0;
+    left:0;
+    right: 0;
 }
